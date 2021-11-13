@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Class</title>
+    <style>
+        .box{
+            background-color: #37ecba;
+            padding: 15px;
+            border: white;
+        }
+        body{
+            text-align: center;
+            margin-left: auto ;
+            margin-right: auto;
+            width: 40%;
+            display: block;
+            background-color:whitesmoke;
+            border: 2px solid white;
+            
+        }
+        button{
+            font-size: 20px;
+            background-color:black;
+            color: white;
+            margin: 10px;
+            padding: 20px;
+            cursor: pointer;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+          transition: all 200ms ease;
+        }
+        button:hover{
+            color: wheat;
+        }
+        h1,h2{
+            text-decoration: underline;
+            color: blueviolet;
+        }
+        h3{
+            font-size: 15px;
+        }
+        p{
+            font-size: 30px;
+            color: black;
+            text-shadow: 10px;
+            text-decoration: underline double;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+    <p>Meditation And Yoga</p>
+    <h1>To a Mind that is still</h1>
+    <h1>The whole Universe surrenders</h1>
+    <img src="https://i0.wp.com/www.mindful.org/content/uploads/how-to-meditate.jpg?resize=1024%2C640&ssl=1" width=300px;>
+    <h3 style="color: white;">
+        <b><u>Meditation and Yoga</u></b>, which is the practice of focused concentration, bringing yourself back to the moment over and over again, 
+        actually addresses stress, whether positive or negative. Doing meditation daily for 30 Minutes can help you release many chronic mind diseases
+        such as stress ,depression, brain disorders. Moreover it has a great impact on your physical health. For a software developer ,
+        computer science engineers and tech workers like us yoga is a must to do thing. It can help you in backpain ,neckpain, eyepain. 
+        Sitting for long hours can cause curved spinal cord, bent bones.   
+        <br>
+        <br>
+        Thatswhy we are offering you classes for Yoga and meditaion. Our coaches are well educated and well-certified. They have done diploma
+         courses in yoga and meditation.
+         <br>
+        <a  href="https://en.wikipedia.org/wiki/Meditation">
+        Read more
+        </a>
+    </h3>  
+    <h3>
+        <button>
+            BOOK FREE DEMO CLASS
+        </button>
+    </h3>  
+    <script>
+        function temp(){
+        let name = prompt("What is your name");
+        let email = prompt("What is your email"); 
+        let p=document.querySelector("p");
+          p.innerHTML="Hi,"+name+"! Thanks for your interest, We will sent you the timings of the classes via email";  
+      }
+        let changebutton=document.querySelector("button");
+        changebutton.addEventListener("click",temp);
+       
+    </script>
+    </div>
+</body>
+</html>
